@@ -1,0 +1,197 @@
+/* PLEASE BE VERY CAREFUL WHEN EDITTING THIS FILE !
+ Don't change our color variables in line 5 & 6.
+ */
+.sunfw-com-virtuemart .cart-view form input[type="submit"] {
+  background-color: #b29573;
+}
+.vm-tab-content nav > a:hover, .vm-tab-content nav > a[data-active="true"] {
+  background-color: #b29573 !important;
+  color: #fff !important;
+}
+#adminForm .buttonBar-right button {
+  background: #b29573;
+}
+.bg-main-color {
+  background: #b29573 !important;
+}
+p.readmore .btn {
+  background-color: #b29573;
+}
+form#searchForm .btn-toolbar .btn-group > button.btn, .login > form button {
+  background-color: #b29573;
+}
+.text-maincolor, ul.VMmenu li.active > a {
+  color: #b29573;
+}
+.vm-order-done a.vm-button-correct, .bg-maincolor {
+  background: #b29573;
+}
+.sunfw-homepage #sunfw_section_content- .item-title a {
+  color: #b29573;
+}
+.customer-name {
+  color: #b29573;
+}
+ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer h3 {
+  color: #b29573 !important;
+  border-bottom: 1px solid #b29573;
+}
+ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer > ul > li a:hover {
+  color: #b29573 !important;
+}
+.sunfw-scrollup:hover {
+  background-color: #b29573;
+}
+#sunfw_section_copyright .social li:hover i {
+  color: #b29573;
+}
+.galleria-info .galleria-info-description a.ferado-btn {
+  background-color: #b29573;
+}
+.galleria-info .galleria-info-description a.ferado-btn:hover {
+  color: #b29573;
+}
+.heading-border {
+  border-bottom: 2px solid #b29573;
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  background-color: #b29573;
+  border-color: #b29573 !important;
+}
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+  color: #b29573;
+}
+div.module-style ul.menu-sidemenu li:hover > a, div.module-style ul.menu-sidemenu li.active > a {
+  color: #b29573;
+}
+.coming-soon a.goto-home {
+  color: #b29573;
+}
+.coming-soon a.goto-home:hover {
+  color: #b29573;
+  text-decoration: underline;
+}
+ul.nav.nav-tabs > li.active > a {
+  background-color: #b29573;
+  border-color: #b29573 !important;
+}
+[class*='module-style-'].module-style-2 .module-title .box-title {
+  border-color: #b29573;
+}
+.virtuemart_search .button {
+  background-color: #b29573;
+}
+@media (min-width: 768px) {
+  .hl-title .ferado-heading:before {
+    background: url(../images/header-wings.png) no-repeat 1px #b29573;
+  }
+  .hl-title .ferado-heading:after {
+    background: url(../images/header-wings.png) no-repeat -301px #b29573;
+  }
+  .ferado2-heading.bg-maincolor > span:before, .ferado2-heading.bg-maincolor > span:after {
+    background-color: #b29573;
+  }
+}
+@media (max-width: 991px) {
+  .search .search-results .result-title a {
+    color: #b29573;
+  }
+}
+h1.category-title span {
+  background: #b29573;
+}
+.back-to-category a.product-details, div.details {
+  background: #b29573;
+}
+.productdetails-view .vm-price-value span {
+  color: #b29573;
+}
+.productdetails-view span.addtocart-button input.addtocart-button {
+  background: #b29573;
+}
+.chzn-container .chzn-results .highlighted {
+  background: #b29573;
+}
+.productdetails-view .information_tabs ul.tabs li.active a {
+  border-color: #b29573;
+  color: #b29573;
+}
+span.details-button input.details-button {
+  background: #b29573;
+}
+button.vm-button-correct {
+  background: #b29573;
+}
+.control-buttons button.default {
+  background: #b29573;
+}
+.manufacturer-product-link a {
+  background: #b29573;
+}
+#vmCartModule div.show_cart a {
+  background: #b29573;
+}
+#fancybox-content .showcart {
+  background-color: #b29573;
+}
+#com-form-login input.default {
+  background: #b29573;
+}
+.p-info .addtocart-area .addtocart-button:hover, .p-info .addtocart-area .addtocart-button:hover {
+  background: #8c6f4d;
+}
+ul.productdetails li .p-info:before, .vm-product-media-container .p-info:before {
+  background: #b29573;
+}
+.counting-up, ul.nav[class*='menu-treemenu'] li a:hover {
+  color: #b29573;
+}
+ul.nav[class*='menu-treemenu'] li.active > a, ul.nav[class*='menu-treemenu'] li.current > a {
+  color: #b29573;
+}
+.border-double {
+  border-color: #b29573 !important;
+}
+.border-double:before {
+  border-color: #b29573 !important;
+}
+.counting-up, .main-color {
+  color: #b29573 !important;
+}
+.content_rating + form input[name="submit_vote"] {
+  background-color: #b29573;
+}
+ul.tags a.label:hover {
+  background-color: #b29573;
+}
+.main-menu nav.sunfw-menu-head ul.navbar-nav > li > a.get-it {
+  background: #b29573;
+}
+nav.sunfw-menu-head ul.navbar-nav ul.dropdown-menu > li > a {
+  color: #b29573;
+}
+nav.sunfw-menu-head ul.navbar-nav ul.dropdown-menu > li > a:hover, nav.sunfw-menu-head ul.navbar-nav ul.dropdown-menu li.active > a {
+  color: #b29573 !important;
+}
+ul.menu li.current > a {
+  color: #b29573 !important;
+}
+.breadcrumb li a {
+  color: #b29573;
+}
+@media (max-width: 480px) {
+  #menu_item_menu ul.dropdown-menu li.active > a, #menu_item_menu ul.sunfw-megamenu-sub-menu li.active > a, #menu_item_menu .modulecontainer ul.nav-child li.active > a {
+    background-color: transparent !important;
+    color: #b29573 !important;
+  }
+  #menu_item_menu ul.navbar-nav > li:hover > a, #menu_item_menu ul.navbar-nav > li.active > a {
+    color: #b29573;
+  }
+}
+.bg-main-color:hover {
+  background: #c4a678 !important;
+  opacity: 0.9;
+}
+nav.sunfw-menu-head ul.navbar-nav > li > span.nav-header:hover {
+  background: #c4a678;
+}

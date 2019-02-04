@@ -1,0 +1,41 @@
+#sunfw_section_header {
+  background-color: #f45245;
+}
+#sunfw_section_content-top {
+  background-color: #ededed;
+}
+#sunfw_section_content-top-below {
+  background-image: url("../../../../images/joomlashine/sample/pattern.png");
+}
+#sunfw_section_content-top-full {
+  background-color: #ededed;
+}
+#sunfw_section_content-bottom {
+  background-color: #ededed;
+}
+#sunfw_section_bottom {
+  background-color: #f45245;
+}
+#sunfw_section_footer {
+  background-color: #353533;
+}
+#sunfw_section_footer h1, #sunfw_section_footer h2, #sunfw_section_footer h3, #sunfw_section_footer h4, #sunfw_section_footer h5, #sunfw_section_footer h6, #sunfw_section_footer .h1, #sunfw_section_footer .h2, #sunfw_section_footer .h3, #sunfw_section_footer .h4, #sunfw_section_footer .h5, #sunfw_section_footer .h6 {
+  color: #fff;
+  text-transform: uppercase;
+}
+#sunfw_section_footer a {
+  color: #a3a3a3;
+}
+#sunfw_section_footer a:hover {
+  color: #f45245;
+}
+#sunfw_section_copyright {
+  background-color: #2e2e2c;
+  font-size: 12px;
+}
+#sunfw_section_copyright a {
+  color: #f45245;
+}
+#sunfw_section_topbar {
+  background-color: #353533;
+}

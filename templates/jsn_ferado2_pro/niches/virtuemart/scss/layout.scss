@@ -1,0 +1,107 @@
+.heading-line {
+  position: relative;
+  &:before {
+    content: '';
+    background: url(../images/line_gray_left.png) no-repeat;
+    display: block;
+    width: 35px;
+    height: 5px;
+    position: absolute;
+    left: -40px;
+    top: 10px;
+  }
+
+  &:after {
+    content: '';
+    background: url(../images/line_gray_right.png) no-repeat;
+    display: block;
+    width: 35px;
+    height: 5px;
+    position: absolute;
+    right: -40px;
+    top: 10px;
+  }
+}
+
+.hl-image:hover * {
+  position: relative;
+  z-index: 9999;
+}
+
+.border-double {
+  position: relative;
+  &:before {
+    content: '';
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    top: 10px;
+    left: 10px;
+    border: 1px solid;
+    position: absolute;
+    pointer-events: none;
+  }
+}
+
+[class*="custom-color-"],
+.sunfw-homepage {
+  #sunfw_section_content {
+    padding-top: 20px;
+  }
+}
+
+.full-height {
+  height: 100%;
+  .module-style{
+    height: 100%;
+  }
+  .module-style {
+    .module-body {
+      height: calc(100% - 63px);
+    }
+  }
+}
+
+.under-line-heading {
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    width: 130%;
+    height: 1px;
+    background: #fff;
+    left: -15%;
+    bottom: 0;
+
+  }
+}
+.img-fullwidth{
+  picture{
+    width: 100%;
+    img{
+      min-height: 160px;
+    }
+  }
+}
+.collect-left{
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  bottom: 50px;
+  right: 50%;
+  transform: translateX(50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-gallery{
+  @media(max-width: $screen-md-min) and (min-width: $screen-sm-min){
+    margin-left: 25%;
+  }
+}
+.sale-page{
+  .productdetails-view.productdetails{
+    margin-top: 15px;
+  }
+
+ } 

@@ -1,0 +1,132 @@
+/* PLEASE BE VERY CAREFUL WHEN EDITTING THIS FILE !
+   Don't change our color variables in line 5 & 6.
+*/
+
+$main-color: false !default;
+$sub-color: false !default;
+
+@if $main-color != false{
+	.text-maincolor{
+		color: $main-color;
+	}
+	.bg-maincolor{
+		background: $main-color;
+	}
+	.sunfw-homepage #sunfw_section_content .item-title a{
+		color: $main-color;
+	}
+	.customer-name{
+		color: $main-color;
+	}
+	ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer h3{
+		color: $main-color;
+		border-bottom: 1px solid $main-color;
+	}
+	.sunfw-scrollup:hover{
+		background-color: $main-color;
+	}
+	#sunfw_section_copyright .social li:hover i{
+		color: $main-color;
+	}
+
+	.galleria-info .galleria-info-description a.ferado-btn{
+		background-color: $main-color;
+		&:hover{
+			color: $main-color;
+		}
+	}
+	.heading-border{
+		border-bottom: 2px solid $main-color;
+	}
+	.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus{
+		background-color: $main-color;
+    	border-color: $main-color;
+	}
+	.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus{
+		color: $main-color;
+	}
+	div.module-style ul.menu-sidemenu{
+		li:hover > a,li.active > a{
+			color : $main-color;
+		}
+	}
+	.coming-soon a.goto-home{
+		color: $main-color;
+		&:hover{
+			color: $main-color;
+			text-decoration: underline;
+		}
+	}
+	#kunena .kfrontend .btn-link{
+		color: $main-color;
+	}
+	@media (min-width: 768px){
+		.hl-title .ferado-heading{
+			&:before{
+				background: url(../images/header-wings.png) no-repeat 1px $main-color;			
+			}
+			&:after{
+				background: url(../images/header-wings.png) no-repeat -301px $main-color;				
+			}    	
+	    }
+	    .ferado2-heading.bg-maincolor > span{
+	    	&:before,&:after{
+	    		background-color: $main-color;
+	    	}
+	    }
+	}
+	@media (max-width: 991px){
+	    .search .search-results .result-title a{
+	    	color: $main-color;
+	    }		
+	}
+
+	//Virtuemart 
+	h1.category-title span {
+	    background: $main-color;
+	}
+	.back-to-category a.product-details, a.details, div.details{
+		background: $main-color;
+	}
+	.productdetails-view .vm-price-value span{
+		color: $main-color;
+	}
+	.productdetails-view span.addtocart-button input.addtocart-button {
+		background: $main-color;
+	}
+	.chzn-container .chzn-results .highlighted{
+		background: $main-color;
+	}
+	.productdetails-view .information_tabs ul.tabs li.active a{
+		border-color: $main-color;
+	}
+	span.details-button input.details-button{
+		background: $main-color;
+	}
+	button.vm-button-correct {
+		background: $main-color;
+	}
+	.control-buttons button.default {		
+		background: $main-color;
+	}
+	.manufacturer-product-link a{
+		background: $main-color;
+	}
+	#vmCartModule div.show_cart a{
+		background: $main-color;
+	}
+	#fancybox-content .showcart{
+		background-color: $main-color;
+	}
+	#com-form-login input.default{
+		background: $main-color;
+	}
+	.p-info .addtocart-area .addtocart-button:hover, .p-info .addtocart-area .addtocart-button:hover{
+		background: darken($main-color,15%);
+	}	
+	ul.vmproduct.productdetails li .p-info:before, .vm-product-media-container .p-info:before{
+		background: $main-color;
+	}
+}
+
+

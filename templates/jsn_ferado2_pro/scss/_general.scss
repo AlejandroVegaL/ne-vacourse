@@ -1,0 +1,28 @@
+
+// Please do not touch file
+
+@import "mixins/mixins";
+@import "../../assets/3rd-party/bootstrap/bootstrap/mixins";
+
+$brand-prefix: ".sunfw-" !default;
+// Page
+
+
+
+$link-color:        false !default;
+$link-hover-color:  false !default;
+
+
+
+// Link
+
+.redshop a {
+  @if $link-color != false {
+    color: $link-color;
+  }
+  &:hover,&:focus {
+    @if $link-hover-color != false {
+      color: $link-hover-color;
+    }
+  }
+}

@@ -1,0 +1,417 @@
+ul.sunfw-tpl-menu {
+  @media(max-width: 767px){
+    max-height: 400px;
+    overflow-y: scroll;
+  }
+  // Menu Description
+  .menudescription {
+    display: block;
+    font-size: 12px;
+    text-transform: initial;
+  }
+  // Menu icon
+  li > a > i {
+    @include rtl-padding-right(5px);
+  }
+  > li {
+    position: relative;
+    &.megamenu{
+      position: static;
+    }
+    &.right {
+      > ul {
+        @include rtl-right(0);
+      }
+    }
+    &.left {
+      > ul {
+        @include rtl-left(0);
+      }
+    }
+    &.center {
+      > ul {
+        @include rtl-left(50%);
+        @include rtl-translateX(-50%);
+      }
+      
+    }
+    &.full-width {
+      position: static;
+      > ul {
+        @include rtl-left(0);
+      }
+    }
+    > ul {
+      background: #fff;
+      z-index: 1;
+    }
+  }
+  //Megamenu
+  > li.megamenu {
+    ul.sunfw-megamenu-sub-menu {
+      position: absolute;
+      padding: 0;
+      padding-bottom: 15px;
+      width: 100%;
+      z-index: 999;      
+      box-shadow: 0 5px 17px rgba(0, 0, 0, 0.075);
+      -webkit-box-shadow: 0 5px 17px rgba(0, 0, 0, 0.075);
+      .modulecontainer {
+        padding: 0 15px;
+        h3 {
+          clear: both;
+          font-size: 15px;
+          padding: 10px;
+          margin-bottom: 0;
+          text-transform: uppercase;
+          background-color: rgba(255, 255, 255, 0.1);
+        }
+        > ul > li {
+          padding: 0;
+          list-style: none;
+          ul{
+            opacity: 0;
+            position: absolute;
+            width: 100%;
+            display: block;
+            left: 100%;
+            top: 0;
+            list-style: none;
+            padding-left: 0;
+          }
+          &:hover ul{
+            opacity: 1;
+            z-index: 9;
+          }
+          a{
+            padding: 8px 0;
+          }          
+        }        
+        #login-form {
+          padding-top: 15px;
+          #form-login-remember, .checkbox {
+            margin-bottom: 5px;
+          }
+          ul.unstyled {
+            display: none;
+            position: relative;
+            opacity: 1;
+          }
+        }
+      }
+      .sunfw-item, .sunfw-item .module-style > div {
+        > ul {
+          display: block;
+          position: relative;
+          width: 100%;
+          right: 0;
+          ul {
+            position: absolute;
+            width: 100%;
+          }
+          li:hover > ul {
+            display: block;
+            @include rtl-left(100%);
+            top: 0;
+            @include box-shadow(7px 7px 6px 0 rgba(50, 50, 50, 0.25));
+            a {
+              width: 100%;
+              display: block;
+            }
+          }
+        }
+      }
+      .sunfw-social {
+        ul {
+          position: relative;
+          left: 0;
+        }
+      }
+      li a:hover{
+      	background: transparent;
+      }
+    }
+  }
+  // Submenu
+  > li.dropdown-submenu {
+    ul {
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      width: 200px;
+      left: auto;
+      display: none;
+      list-style: none;
+      @include rtl-text-align-left();
+      li {
+        padding: 0 15px;
+        position: relative;
+        &:hover {
+          > ul {
+            top: 0;
+            @include rtl-left(100%);
+          }
+        }
+        a {
+          font-size: 14px;
+          padding: 10px 0;
+          position: relative;
+          &:hover {
+            background: transparent;
+          }
+        }
+        &:last-child {
+          a:before {
+            display: none;
+          }
+        }
+      }
+    }
+    li.dropdown-submenu {
+      .dropdown-menu {
+        display: none;
+        @include opacity(0);
+        @include transition(opacity .4s ease);
+      }
+      &:hover {
+        > .dropdown-menu {
+          display: block;
+          @include opacity(1);
+        }
+      }
+      .caret {
+        @include rtl-right(20px);
+      }
+    }
+
+  }
+  // Menu Flipback
+  @media (min-width: $screen-sm-min) {
+    .sunfw-submenu-flipback {
+      ul {
+        right: 0;
+        left: auto !important;
+        ul {
+          right: 100%;
+        }
+        &.dropdown-menu {
+          @include rtl-text-align-right();
+          .caret {
+            @include rtl-left(8px);
+          }
+        }
+      }
+      ul li:hover > ul {
+        left: auto !important;
+        right: 100%;
+      }
+      &.center {
+        position: static;
+        > ul {
+          width: 100% !important;
+          @include rtl-left(0);
+          @include rtl-translateX(0);
+        }
+      }
+    }
+  }
+
+  > li ul ul.dropdown-menu {
+    top: 0;
+    left: 100%;
+  }
+}
+@media (min-width: $screen-sm-min){
+.sunfwMenuNoneEffect {
+      ul.sunfw-tpl-menu {
+        > li {
+          > ul {
+            display: block !important;
+            opacity: 0;
+            visibility: hidden;
+            transition: 0.3s !important;
+          }
+          &:hover {
+            > ul {
+              opacity: 1;
+              visibility: visible;
+              transition-delay: 0.3s !important;
+            }
+          }
+        }
+      }
+
+    }
+  }
+.sunfwMenuNoneEffect {
+  ul.sunfw-tpl-menu {
+    > li {
+      > ul {
+        display: none;
+      }
+      &:hover {
+        > ul {
+          display: block;
+        }
+      }
+    }
+  }
+  
+}
+
+// Menu Responsive
+@media (max-width: 1024px) {
+  ul.sunfw-tpl-menu .sunfw-submenu-flipback .sunfw-mega-menu ul {
+    @include rtl-right(0);
+  }
+}
+@media (max-width: 767px) {
+  .sunfw-menu {
+    position: relative;
+    z-index: 999;
+  }
+  ul.sunfw-tpl-menu {
+    &.navbar-nav {
+      margin: 0;
+    }
+    > li {
+        border-bottom: 1px solid rgba(204, 204, 204, 0.1);
+      ul {
+        @include box-shadow(none !important);
+        display: none !important;
+        position: relative !important;
+        &.menuShow {
+          float: none;
+          display: block !important;
+          width: 100%;
+        }
+      }
+      
+    }
+    > li.dropdown-submenu {
+      li.dropdown-submenu {
+        .dropdown-menu {
+          display: none !important;
+          padding: 0 12px;
+          @include opacity(1);
+          @include transition(none);
+          &.menuShow {
+            display: block !important;
+            left: 0;
+          }
+        }
+      }
+      ul li a::before {
+        display: none;
+      }
+    }
+    > li.megamenu {
+      position: relative;
+      .sunfw-megamenu-sub-menu {
+        width: 100% !important;
+        padding: 0px 20px 0;
+      }
+      .sunfw-mega-menu {
+        [class*="col-xs-"] {
+          width: 100%;
+          padding: 0;
+        }
+        .row {
+          margin: 0;
+        }
+        ul {
+          display: block !important;
+          &.unstyled {
+            display: none !important;
+          }
+          &.menuShow{
+            left: 0 !important;
+            display: block !important;
+          }
+        }
+        h3 {
+          margin-top: 0;
+          padding: 10px 15px;
+        }
+      }
+    }
+    
+    li {
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+    .caret {
+      border: none;
+      width: 40px;
+      top: 0;
+      position: absolute;
+      @include rtl-right(0);
+      height: 100%;
+      text-align: center;
+      margin-top: 0;
+      &:before {
+        content: "\f0da";
+        font-family: "FontAwesome";
+        color: #fff;
+        font-size: 16px;
+        vertical-align: middle;
+        position: relative;
+        top: 3px;
+      }
+      &.open:before {
+        content: "\f0d7";
+      }
+    } 
+  }
+  //	Fixed Menu
+  .sunfw-menu-head.navbar-default .navbar-nav > li > a {
+    padding: 10px 15px;
+  }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+      border-color: rgba(204,204,204,0.2);
+  }
+}
+#menu_item_menu ul.navbar-nav > li > a{
+  text-transform: uppercase;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+  background-color: transparent;
+}
+@media(min-width: 768px){
+  .sunfwMenuFading{
+    ul.sunfw-tpl-menu{
+      li.dropdown-submenu {
+        ul{
+          display: block !important;
+          opacity: 0;
+          visibility: hidden;
+          transition: 0.3s !important;
+          padding: 12px 0;
+        }
+        &:hover{
+          > ul{
+            opacity: 1;
+            visibility: visible;
+            transition-delay: 0.3s !important;
+          }
+        }
+      }
+      li.megamenu {
+        > ul{
+          display: block !important;
+          opacity: 0;
+          visibility: hidden;
+          transition: 0.3s !important;
+        }
+        &:hover{
+          > ul{
+            opacity: 1;
+            visibility: visible;
+            transition-delay: 0.3s !important
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@import "../../assets/3rd-party/bootstrap/bootstrap/mixins";
+.redshop a {
+  color: #6f68ad;
+}
+.redshop a:hover, .redshop a:focus {
+  color: #8b83d1;
+}

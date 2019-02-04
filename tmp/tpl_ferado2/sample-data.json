@@ -1,0 +1,48 @@
+{
+  "developer": [
+    {
+      "id": "redshop",
+      "name": "redShop",
+      "thumbnail": "https://www.joomlashine.com/images/templates/jsn-ferado/01-vintage-inspired-design.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_ferado_2/pro/redshop",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_ferado_2_pro_redshop_sample_data_j3x.zip",
+      "tags": []
+    },
+    {
+      "id": "virtuemart",
+      "name": "Virtuemart",
+      "thumbnail": "https://www.joomlashine.com/images/templates/jsn-ferado/01-vintage-inspired-design.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_ferado_2/pro/virtuemart",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_ferado_2_pro_virtuemart_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "individual": [
+    {
+      "id": "redshop",
+      "name": "redShop",
+      "thumbnail": "https://www.joomlashine.com/images/templates/jsn-ferado/01-vintage-inspired-design.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_ferado_2/pro/redshop",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_ferado_2_pro_sample_data_j3x.zip",
+      "tags": []
+    },
+    {
+      "id": "virtuemart",
+      "name": "Virtuemart",
+      "thumbnail": "https://www.joomlashine.com/images/templates/jsn-ferado/01-vintage-inspired-design.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_ferado_2/pro/virtuemart",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_ferado_2_pro_virtuemart_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "free": [
+    {
+      "id": "virtuemart",
+      "name": "Virtuemart",
+      "thumbnail": "https://www.joomlashine.com/images/templates/jsn-ferado/01-vintage-inspired-design.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_ferado_2/pro/virtuemart",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_ferado_2_pro_virtuemart_sample_data_j3x.zip",
+      "tags": []
+    }
+  ]
+}

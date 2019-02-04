@@ -1,0 +1,55 @@
+/* PLEASE BE VERY CAREFUL WHEN EDITTING THIS FILE !
+ Don't change our color variables in line 5 & 6.
+ */
+.sunfw-homepage #sunfw_section_content .item-title a {
+  color: #f45245;
+}
+.customer-name {
+  color: #f45245;
+}
+ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer h3 {
+  color: #f45245;
+  border-bottom: 1px solid #f45245;
+}
+.back-to-category a.product-details, a.details, div.details {
+  background: #f45245;
+}
+.productdetails-view .vm-price-value span {
+  color: #f45245;
+}
+.productdetails-view span.addtocart-button input.addtocart-button {
+  background: #f45245;
+}
+.chzn-container .chzn-results .highlighted {
+  background: #f45245;
+}
+.productdetails-view .information_tabs ul.tabs li.active a {
+  border-color: #f45245;
+}
+span.details-button input.details-button {
+  background: #f45245;
+}
+button.vm-button-correct {
+  background: #f45245;
+}
+.control-buttons button.default {
+  background: #f45245;
+}
+.manufacturer-product-link a {
+  background: #f45245;
+}
+#vmCartModule div.show_cart a {
+  background: #f45245;
+}
+#fancybox-content .showcart {
+  background-color: #f45245;
+}
+.category_box_wrapper.list .category_box_inside .category_product_title h3 a {
+  color: #f45245;
+}
+.product_detail .product_price {
+  color: #f45245;
+}
+.product_detail .manufacturer_link a.btn.btn-primary, .product_detail .ask_question_about_product a.btn.btn-primary, .product_detail .product_writereview a.btn.btn-primary {
+  color: #f45245;
+}

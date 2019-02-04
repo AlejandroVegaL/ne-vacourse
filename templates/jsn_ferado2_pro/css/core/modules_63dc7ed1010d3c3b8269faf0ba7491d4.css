@@ -1,0 +1,70 @@
+body#sunfw-master .module-style-1 {
+  background-color: custom;
+}
+body#sunfw-master .module-style-1 .module-title .box-title {
+  background: #f9f9f9;
+  font-size: 18px;
+  text-transform: none;
+  color: #394a5c;
+  font-weight: bold;
+}
+body#sunfw-master .module-style-1 .module-title .box-title:before, body#sunfw-master .module-style-1 .module-title .box-title i[class*='fa-'] {
+  color: #fff;
+}
+body#sunfw-master .module-style-1 .module-body, body#sunfw-master .module-style-1 .custom {
+  color: #394a5c;
+}
+body#sunfw-master .module-style-1 .module-body a, body#sunfw-master .module-style-1 .custom a {
+  color: #f76f64;
+}
+body#sunfw-master .module-style-1 .module-body a:hover, body#sunfw-master .module-style-1 .custom a:hover {
+  color: #f76f64;
+}
+body#sunfw-master .module-style-2 {
+  background-color: custom;
+}
+body#sunfw-master .module-style-2 .module-title .box-title {
+  background: #f45245;
+  font-size: 18px;
+  text-transform: none;
+  color: #fff;
+  font-weight: bold;
+}
+body#sunfw-master .module-style-2 .module-title .box-title:before, body#sunfw-master .module-style-2 .module-title .box-title i[class*='fa-'] {
+  color: #f45245;
+}
+body#sunfw-master .module-style-2 .module-body, body#sunfw-master .module-style-2 .custom {
+  color: #394a5c;
+}
+body#sunfw-master .module-style-3 {
+  background-color: custom;
+}
+body#sunfw-master .module-style-3 .module-title .box-title {
+  background: #e5e5e5;
+  font-size: 18px;
+  text-transform: none;
+  color: #394a5c;
+  font-weight: bold;
+}
+body#sunfw-master .module-style-3 .module-title .box-title:before, body#sunfw-master .module-style-3 .module-title .box-title i[class*='fa-'] {
+  color: #f76f64;
+}
+body#sunfw-master .module-style-3 .module-body, body#sunfw-master .module-style-3 .custom {
+  color: #394a5c;
+}
+body#sunfw-master .module-style-4 {
+  background-color: custom;
+}
+body#sunfw-master .module-style-4 .module-title .box-title {
+  background: #394a5c;
+  font-size: 18px;
+  text-transform: none;
+  color: #fff;
+  font-weight: bold;
+}
+body#sunfw-master .module-style-4 .module-title .box-title:before, body#sunfw-master .module-style-4 .module-title .box-title i[class*='fa-'] {
+  color: #f76f64;
+}
+body#sunfw-master .module-style-4 .module-body, body#sunfw-master .module-style-4 .custom {
+  color: #394a5c;
+}

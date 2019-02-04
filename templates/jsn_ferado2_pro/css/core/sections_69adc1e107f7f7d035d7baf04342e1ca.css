@@ -1,0 +1,135 @@
+#sunfw_section_header {
+  background-color: #f45245;
+}
+#sunfw_section_content-top {
+  background-color: #fff;
+}
+#sunfw_section_content-top-below {
+  background-color: #e54e42;
+  background-image: url("../../../../images/joomlashine/sample/pattern.png");
+}
+#sunfw_section_content-top-full {
+  background-color: #ececec;
+}
+#sunfw_section_content-bottom {
+  background-color: #fff;
+}
+#sunfw_section_bottom {
+  background-color: #f45245;
+}
+#sunfw_section_footer {
+  background-color: #202020;
+  color: #5f728a;
+}
+#sunfw_section_footer h1, #sunfw_section_footer h2, #sunfw_section_footer h3, #sunfw_section_footer h4, #sunfw_section_footer h5, #sunfw_section_footer h6, #sunfw_section_footer .h1, #sunfw_section_footer .h2, #sunfw_section_footer .h3, #sunfw_section_footer .h4, #sunfw_section_footer .h5, #sunfw_section_footer .h6 {
+  color: #fff;
+  text-transform: uppercase;
+}
+#sunfw_section_footer a {
+  color: #5f728a;
+}
+#sunfw_section_footer a:hover {
+  color: #f45245;
+}
+#sunfw_section_copyright {
+  background-color: #202020;
+  color: #5f728a;
+  font-size: 12px;
+}
+#sunfw_section_copyright h1, #sunfw_section_copyright h2, #sunfw_section_copyright h3, #sunfw_section_copyright h4, #sunfw_section_copyright h5, #sunfw_section_copyright h6, #sunfw_section_copyright .h1, #sunfw_section_copyright .h2, #sunfw_section_copyright .h3, #sunfw_section_copyright .h4, #sunfw_section_copyright .h5, #sunfw_section_copyright .h6 {
+  color: #394a5c;
+  line-height: 1.4;
+}
+#sunfw_section_copyright h1, #sunfw_section_copyright .h1 {
+  font-size: 28px;
+}
+#sunfw_section_copyright h2, #sunfw_section_copyright .h2 {
+  font-size: 23px;
+}
+#sunfw_section_copyright h3, #sunfw_section_copyright .h3 {
+  font-size: 19px;
+}
+#sunfw_section_copyright h4, #sunfw_section_copyright .h4 {
+  font-size: 14px;
+}
+#sunfw_section_copyright h5, #sunfw_section_copyright .h5 {
+  font-size: 11px;
+}
+#sunfw_section_copyright h6, #sunfw_section_copyright .h6 {
+  font-size: 10px;
+}
+#sunfw_section_copyright a {
+  color: #f45245;
+}
+#sunfw_section_copyright a:hover {
+  color: #e54e42;
+}
+#sunfw_section_topbar {
+  background-color: #000;
+  color: #353535;
+  font-size: 14px;
+}
+#sunfw_section_topbar h1, #sunfw_section_topbar h2, #sunfw_section_topbar h3, #sunfw_section_topbar h4, #sunfw_section_topbar h5, #sunfw_section_topbar h6, #sunfw_section_topbar .h1, #sunfw_section_topbar .h2, #sunfw_section_topbar .h3, #sunfw_section_topbar .h4, #sunfw_section_topbar .h5, #sunfw_section_topbar .h6 {
+  color: #838382;
+  line-height: 1.4;
+}
+#sunfw_section_topbar h1, #sunfw_section_topbar .h1 {
+  font-size: 28px;
+}
+#sunfw_section_topbar h2, #sunfw_section_topbar .h2 {
+  font-size: 23px;
+}
+#sunfw_section_topbar h3, #sunfw_section_topbar .h3 {
+  font-size: 19px;
+}
+#sunfw_section_topbar h4, #sunfw_section_topbar .h4 {
+  font-size: 14px;
+}
+#sunfw_section_topbar h5, #sunfw_section_topbar .h5 {
+  font-size: 11px;
+}
+#sunfw_section_topbar h6, #sunfw_section_topbar .h6 {
+  font-size: 10px;
+}
+#sunfw_section_topbar a {
+  color: #fff;
+}
+#sunfw_section_topbar a:hover {
+  color: #f45245;
+}
+#sunfw_section_content-bottom-over {
+  background-color: #e54e42;
+  background-image: url("../../../../images/joomlashine/placeholder/bg_blogpost.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+#sunfw_section_footer-newsletter {
+  background-color: #313131;
+}
+#sunfw_section_footer-newsletter h1, #sunfw_section_footer-newsletter h2, #sunfw_section_footer-newsletter h3, #sunfw_section_footer-newsletter h4, #sunfw_section_footer-newsletter h5, #sunfw_section_footer-newsletter h6, #sunfw_section_footer-newsletter .h1, #sunfw_section_footer-newsletter .h2, #sunfw_section_footer-newsletter .h3, #sunfw_section_footer-newsletter .h4, #sunfw_section_footer-newsletter .h5, #sunfw_section_footer-newsletter .h6 {
+  color: #fff;
+  line-height: 1.4;
+}
+#sunfw_section_footer-newsletter h1, #sunfw_section_footer-newsletter .h1 {
+  font-size: 28px;
+}
+#sunfw_section_footer-newsletter h2, #sunfw_section_footer-newsletter .h2 {
+  font-size: 23px;
+}
+#sunfw_section_footer-newsletter h3, #sunfw_section_footer-newsletter .h3 {
+  font-size: 19px;
+}
+#sunfw_section_footer-newsletter h4, #sunfw_section_footer-newsletter .h4 {
+  font-size: 14px;
+}
+#sunfw_section_footer-newsletter h5, #sunfw_section_footer-newsletter .h5 {
+  font-size: 11px;
+}
+#sunfw_section_footer-newsletter h6, #sunfw_section_footer-newsletter .h6 {
+  font-size: 10px;
+}
+#sunfw_section_content-top-over {
+  background-color: custom;
+}

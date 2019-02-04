@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
+
+.jsn-error-page {
+  text-align: center;
+  h1 {
+    color: #000;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 144px;
+    margin: 0;
+    border-bottom: none;
+    font-family: 'Lato', sans-serif;
+  }
+  .jsn-error-text{
+    color: #394A5C; 
+    font-family: Lato;  
+    font-size: 16px;  
+    line-height: 24px;
+    margin-bottom: 23px;
+  }
+  #content {
+    position: absolute;
+    @include rtl-left(0);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Lato", Arial;
+  }
+  .table {
+    display: table;
+    width: 100%;
+    height: 100%;
+    .table-cell {
+      display: table-cell;
+      width: 100%;
+      height: 100%;
+      vertical-align: middle;
+    }
+  }
+  .content-inner {
+    h3 {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 25px 0 10px;
+      color: #333;
+      text-transform: inherit;
+    }
+    p {
+      color: #394A5C;
+      font-size: 18px;
+      margin: 0 0 20px;
+    }
+    img{
+      margin-bottom: 20px;
+    }
+  }
+  .jsn-search {
+    #mod-search-searchword {
+      border-color: #d1d6de;
+      border-radius: 0;
+      box-shadow: none;
+      padding: 2px 20px;
+      width: 13%;
+      height: 35px;
+      font-size: 14px;
+      color: #333;
+      background: #fff;
+      line-height: 32px;
+      ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #333;
+      }
+      ::-moz-placeholder { /* Firefox 19+ */
+        color: #333;
+      }
+      :-ms-input-placeholder { /* IE 10+ */
+        color: #333;
+      }
+      :-moz-placeholder { /* Firefox 18- */
+        color: #333;
+      }
+
+      &:focus {
+        border-color: $primary-color;
+        -webkit-appearance: none;
+        box-shadow: none;
+      }
+      @media (max-width: 768px) {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+    .btn {
+      border-width: 1px;
+      border-style: solid;
+      border-color: #dd514a;
+      color: #fff;
+      font-size: 14px;
+      font-family: "Lato", Arial;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0px;
+      border-radius: 0;
+      vertical-align: top;
+      background-color: #dd514a;
+      margin-left: 5px;
+      margin-top: 0;
+      font-weight: normal;
+      padding: 8px 25px;
+      box-shadow: none;
+      text-transform: capitalize;
+      &:hover {
+        background-color: #9F2B2B;
+        color: #FFF;
+        border-color: #9F2B2B
+      }
+      &:before{
+        content: '\f002';
+        font-family: fontAwesome;
+        margin-right: 10px;
+      }
+    }
+  }
+  .goto-home {
+    margin: 20px 0 30px;
+    a {
+      padding: 10px 30px;
+      font-weight: normal;
+      font-size: 14px;
+      color: #f45245;
+      text-transform: none;
+      i {
+        @include rtl-margin-right(5px);
+      }
+      &:hover {
+        color: #f45245;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+body.no-layout{
+  height: 100vh;
+  .body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.jsn-error{
+  .page-header, .footer{
+    display: none;
+  }
+  .well{
+    background-color: #fff;
+    box-shadow: none;
+    border: 0;
+  }
+}
+
+.search-page-error{
+  .search{
+    .form-inline{
+      .form-control{
+        height: 40px;
+        box-shadow: none;
+        border: 1px solid #d1d6de;
+        &:focus{
+          box-shadow: none;
+          border-color: #d1d6de;
+        }
+      }
+      .button{
+        height: 40px;
+        border-radius: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        background-color: #F45245;
+        border:0;
+        margin-left: 7px;
+        line-height: 20px;
+        @media(max-width: 480px){
+          margin-top: 20px;
+          margin-left: 0;
+        }
+      }
+    } 
+  }
+}
+
+.alert-error, .alert-warning{
+  .alert-message{
+    background: transparent;
+    color: inherit;
+  }
+}

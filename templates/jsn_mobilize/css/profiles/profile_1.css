@@ -1,0 +1,17 @@
+
+#jsn-master .jsn-mobile-layout #jsn-menu{ background:#282828; }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu ul.jsn-menu-mobile,#jsn_menu .mobilize-menu div.jsn-menu-mobile{ background:#333333; }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu ul.jsn-menu-mobile > li > a{ font-family:Verdana;font-style:inherit; }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu ul.jsn-menu-mobile ul{  }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu ul.jsn-menu-mobile ul li a{ font-family:Verdana;font-style:inherit; }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu > li > span.active{ background:#404040; }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu > li > ul > li.sub-menu-active{  }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu > li > ul > li.sub-menu-active > ul li.current{  }
+#jsn-master .jsn-mobile-layout #jsn-menu .mobilize-menu > li > span.jsn-menu-toggle i { color:#ffffff;
+background-image: url('/demo/joomla-templates/jsn_force/j30/pro/media/jui/img/glyphicons-halflings-white.png');
+color:#ffffff; }
+#jsn-master .jsn-mobile-layout #jsn-content-top { background:#404040; }
+#jsn-master .jsn-mobile-layout #jsn-content-top { background:#404040; }
+#jsn-master .jsn-mobile-layout #jsn-mainbody { padding-left:20px;padding-right:20px;padding-top:10px;padding-bottom:10px; }
+#jsn-master .jsn-mobile-layout #jsn-user-bottom { background:#d9d9d9; }
+#jsn-master .jsn-mobile-layout #jsn-content-bottom { background:#d9d9d9; }

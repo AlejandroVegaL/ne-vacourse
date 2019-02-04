@@ -1,0 +1,6 @@
+.redshop a {
+  color: #42b3a0;
+}
+.redshop a:hover, .redshop a:focus {
+  color: #4bc6b1;
+}

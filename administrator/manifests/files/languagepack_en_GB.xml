@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="file" method="upgrade">
+      <name>Paycart Plugins English Language Pack</name>
+      <version>1.0.0</version>
+      <creationDate>August 2014</creationDate>
+      <author>Team Readybytes</author>
+      <authorEmail>support+paycart@readybytes.in</authorEmail>
+      <authorUrl>www.readybytes.net</authorUrl>
+      <copyright>Copyright (C) 2009 - 2014 All rights reserved.</copyright>
+      <license>GNU/GPL</license>
+      <description>English Language pack for plugins of paycart.</description>
+   <fileset>
+       <!--Paycart plugin language files -->
+       <files folder="plg_paycart" target="language/en-GB/">
+           <filename>index.html</filename>
+           <filename>en-GB.com_paycart_plugins.ini</filename>
+       </files>
+    </fileset>
+
+    <alias>pc-languagepack-en</alias>
+    <version_number>1.0.0</version_number>
+    <version_name>English Language Pack 1.0</version_name>
+</extension>

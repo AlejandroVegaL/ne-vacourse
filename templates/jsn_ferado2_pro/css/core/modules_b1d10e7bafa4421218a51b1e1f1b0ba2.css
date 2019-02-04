@@ -1,0 +1,36 @@
+body#sunfw-master .module-style-1 {
+  background-color: #f45245;
+}
+body#sunfw-master .module-style-1 .module-title .box-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}
+body#sunfw-master .module-style-1 .module-title .box-title:before, body#sunfw-master .module-style-1 .module-title .box-title i[class*='fa-'] {
+  color: #fff;
+}
+body#sunfw-master .module-style-1 .module-body, body#sunfw-master .module-style-1 .custom {
+  color: #fff;
+}
+body#sunfw-master .module-style-1 .module-body a, body#sunfw-master .module-style-1 .custom a {
+  color: #fff;
+}
+body#sunfw-master .module-style-2 .module-title .box-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #f45245;
+}
+body#sunfw-master .module-style-2 .module-title .box-title:before, body#sunfw-master .module-style-2 .module-title .box-title i[class*='fa-'] {
+  color: #f45245;
+}
+body#sunfw-master .module-style-3 .module-title .box-title {
+  background: #f5f5f5;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+body#sunfw-master .module-style-4 .module-title .box-title {
+  background: #353535;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}

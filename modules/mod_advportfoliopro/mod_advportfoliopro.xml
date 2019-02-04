@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * @copyright	Copyright (c) 2014 Skyline Software (http://extstore.com). All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
+-->
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>Advanced Portfolio Pro</name>
+	<author>ExtStore</author>
+	<creationDate>March 2014</creationDate>
+	<copyright>Copyright (c) 2014 Skyline. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@extstore.com</authorEmail>
+	<authorURL>http://extstore.com</authorURL>
+	<version>2.1.0</version>
+	<description>
+	<![CDATA[
+		Advanced Portfolio is an extension for Joomla developed by ExtStore Team. With clean theme, responsive design, it is a complete solution for anyone who wants to build portfolio pages on Joomla website.
+	]]>
+	</description>
+
+	<files>
+		<filename module="mod_advportfoliopro">mod_advportfoliopro.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>
+
+	<languages>
+		<language tag="en-GB">en-GB.mod_advportfoliopro.ini</language>
+		<language tag="en-GB">en-GB.mod_advportfoliopro.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					addfieldpath="/administrator/components/com_categories/models/fields"
+					name="catids"
+					type="categoryedit"
+					label="JCATEGORY"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_CATEGORY_DESC"
+					extension="com_advportfoliopro"
+					labelclass="control-label"
+					labelClass="control-label"
+					multiple="true"
+				/>
+
+				<field
+					name="orderby"
+					type="list"
+					default="rdate"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_ORDERBY_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_ORDERBY_DESC"
+				>
+					<option value="rdate">JGLOBAL_MOST_RECENT_FIRST</option>
+					<option value="date">JGLOBAL_OLDEST_FIRST</option>
+					<option value="alpha">JGLOBAL_TITLE_ALPHABETICAL</option>
+					<option value="ralpha">JGLOBAL_TITLE_REVERSE_ALPHABETICAL</option>
+					<option value="order">JGLOBAL_ARTICLE_MANAGER_ORDER</option>
+					<option value="random">MOD_ADVPORTFOLIOPRO_FIELD_ORDERBY_RANDOM</option>
+				</field>
+
+				<field
+					name="limit"
+					type="text"
+					default="20"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_LIMIT_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_LIMIT_DESC"
+					labelclass="control-label"
+				/>
+
+				<field
+					name="spacer1"
+					type="spacer"
+					hr="true"
+				/>
+			</fieldset>
+			<fieldset name="style" label="MOD_ADVPORTFOLIOPRO_FIELDSET_STYLE_LABEL">
+				<field
+					name="show_title_list"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_TITLE_LIST_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_TITLE_LIST_DESC"
+				>
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+
+				<field
+					name="show_category"
+					type="radio"
+					class="btn-group"
+					default="0"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_CATEGORY_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_CATEGORY_DESC"
+				>
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+
+				<field
+					name="show_short_description"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_SHORT_DESCRIPTION_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_SHORT_DESCRIPTION_DESC"
+				>
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+
+				<field
+					name="show_info"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_INFO_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_INFO_DESC"
+				>
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+
+				<field
+					name="show_info_title"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_INFO_TITLE_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_INFO_TITLE_DESC"
+				>
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+
+				<field
+					name="show_info_category"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_INFO_CATEGORY_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_INFO_CATEGORY_DESC"
+				>
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+
+				<field
+					name="show_info_project_link"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_INFO_PROJECT_LINK_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_INFO_PROJECT_LINK_DESC"
+				>
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+
+				<field
+					name="show_info_project_details"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_INFO_PROJECT_DETAILS_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_INFO_PROJECT_DETAILS_DESC"
+				>
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+
+				<field
+					name="show_info_project_gallery"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_INFO_PROJECT_GALLERY_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_INFO_PROJECT_GALLERY_DESC"
+				>
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+
+				<field
+					name="num_columns"
+					type="list"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_NUM_COLUMNS_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_NUM_COLUMNS_DESC"
+					default="1"
+				>
+					<option value="1">J1</option>
+					<option value="2">J2</option>
+					<option value="3">J3</option>
+					<option value="4">J4</option>
+					<option value="5">J5</option>
+					<option value="6">J6</option>
+				</field>
+
+				<field
+					name="item_width"
+					type="text"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_ITEM_WIDTH_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_ITEM_WIDTH_DESC"
+					labelclass="control-label"
+					default="300"
+				/>
+
+				<field
+					name="overlay_color1"
+					type="color"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_OVERLAY_COLOR1_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_OVERLAY_COLOR1_DESC"
+					labelclass="control-label"
+					default="#5AABD6"
+				/>
+
+				<field
+					name="overlay_color2"
+					type="color"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_OVERLAY_COLOR2_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_OVERLAY_COLOR2_DESC"
+					labelclass="control-label"
+				/>
+
+			</fieldset>
+
+			<fieldset name="slider" label="MOD_ADVPORTFOLIOPRO_FIELDSET_SLIDER_LABEL">
+				<field
+					name="animation"
+					type="list"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_ANIMATION_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_ANIMATION_DESC"
+					default="slide"
+				>
+					<option value="slide">MOD_ADVPORTFOLIOPRO_FIELD_ANIMATION_SLIDE</option>
+					<option value="fade">MOD_ADVPORTFOLIOPRO_FIELD_ANIMATION_FADE</option>
+					<option value="slide, fade">MOD_ADVPORTFOLIOPRO_FIELD_ANIMATION_SLIDE_FADE</option>
+				</field>
+
+				<!--<field-->
+					<!--name="direction"-->
+					<!--type="list"-->
+					<!--label="MOD_ADVPORTFOLIOPRO_FIELD_DIRECTION_LABEL"-->
+					<!--description="MOD_ADVPORTFOLIOPRO_FIELD_DIRECTION_DESC"-->
+					<!--default="slide"-->
+				<!-->-->
+					<!--<option value="horizontal">MOD_ADVPORTFOLIOPRO_FIELD_DIRECTION_HORIZONTAL</option>-->
+					<!--<option value="vertical">MOD_ADVPORTFOLIOPRO_FIELD_DIRECTION_VERTICAL</option>-->
+				<!--</field>-->
+
+				<field
+					name="speed"
+					type="text"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_SPEED_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_SPEED_DESC"
+					default="5000"
+				/>
+
+				<field
+					name="show_navigation"
+					type="radio"
+					class="btn-group"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_NAVIGATION_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_NAVIGATION_DESC"
+					default="1"
+				>
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+
+				<field
+					name="show_direction_navigation"
+					type="radio"
+					class="btn-group"
+					label="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_DIRECTION_NAVIGATION_LABEL"
+					description="MOD_ADVPORTFOLIOPRO_FIELD_SHOW_DIRECTION_NAVIGATION_DESC"
+					default="1"
+				>
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC"
+				/>
+
+				<field
+					name="moduleclass_sfx"
+					type="textarea"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
+				/>
+
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC"
+				>
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC"
+				/>
+
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static"
+				>
+					<option value="static"></option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

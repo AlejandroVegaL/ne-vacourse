@@ -1,0 +1,472 @@
+// Login
+.login {
+      background: #FFF;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+  > form {
+    background: #FFF;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 0;
+    @include box-shadow(none);
+    button {
+      // margin-top: 15px;
+    min-width: 280px;
+    min-height: 40px;
+    }
+  }
+  .form-horizontal .control-label {
+    @include rtl-text-align-left();
+  }
+
+  input {
+    border-radius: 2px;
+    max-width: 280px;
+    line-height: 45px;
+    width: 100%;
+    border: 1px solid #d1d6de;
+    padding: 10px;
+    // margin-bottom: 20px;
+    @include box-shadow(none);
+    
+  }
+  .control-group {
+    position: relative;
+    .control-label{
+      padding-top: 0;
+      display: inline;
+      label.required{
+      display: none;
+      }
+
+    }
+    .controls{
+        display: inline;
+        // float: left;
+      }
+    #remember {
+      height: auto;
+      width: auto;
+      margin: 0;
+      margin-right: 10px;
+      float: left;
+      margin-top: 5px;
+    }
+
+  }
+  .nav.nav-stacked {
+    // margin-left: 5px;
+    // padding: 15px 0px 20px;
+    border: none!important;
+    > li > a {
+      border: none;
+      background: transparent;
+      padding-bottom: 0;
+      line-height: 30px;
+      &:hover {
+        border: none;
+        background: transparent;
+        @include box-shadow(none);
+      }
+    }
+  }
+}
+.profile-edit,
+.login,
+#user-registration,
+#member-registration {
+  .control-group {
+    margin-bottom: 20px;   
+  }
+  input, select{
+    border-radius: 0;
+  }
+  
+}
+.registration #member-registration .control-group{
+  max-width: 530px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#user-registration, #member-registration {
+  background-color: transparent;
+    border: none;
+    box-shadow: none;
+    legend{
+      border: 0;
+
+    }
+  .control-group {
+    &:before {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  .control-label {
+    float: left;
+    // width: 150px;
+    padding-top: 5px;
+    @include rtl-text-align-left();
+    #jform_spacer-lbl{
+      font-weight: bold;
+    }
+  }
+  .controls {
+    >button{
+      // margin-left: 5px;
+    }
+    input, textarea {
+      display: block;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.42857;
+      color: #555555;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #d1d6de;
+      border-radius: 0;
+      &:focus {
+        border-color: #66afe9;
+        outline: 0;      
+      }
+      &:-moz-placeholder {
+        color: #999;
+        opacity: 1;
+      }
+      &:-ms-input-placeholder {
+        color: #999; }
+      &::-webkit-input-placeholder {
+        color: #999; }
+      &::-ms-expand {
+        border: 0;
+        background-color: transparent;
+      }
+      .form-control[disabled], 
+      fieldset[disabled] .form-control {
+        cursor: not-allowed;
+      }
+    }
+  }
+}
+.remind button, .reset button {
+    min-width: 100%;
+}
+.sunfw-login-nav {
+  margin-bottom: 40px;
+  .nav {
+    // padding-top: 10px;
+    border: none!important;
+    // margin-left: 5px;
+    // margin-top: -15px;
+    li {
+      a {
+        padding: 0;
+        border: none;
+        &:hover {
+          background: transparent!important;
+          border: none!important;
+        }
+      }
+    }
+  }
+}
+#user-registration {
+  padding: 0;
+}
+
+
+/* ---------- View Profile ----------- */
+
+.profile {
+  [id^="users-profile-"] {
+    clear: both;
+    text-align: center;
+    @media(max-width: 480px){
+      text-align: left;
+    }
+  }
+  dt, dd{
+    line-height: 40px;
+  }
+  dd{
+    text-align: left;
+    min-width: 200px;
+  }
+  .dl-horizontal{
+    display: inline-block;
+    @media(max-width: 480px){
+      display: block;
+    }
+  } 
+  legend{
+    border-bottom: 1px solid #d8d8d8;
+    font-weight: bold;
+    text-align: left;
+  }
+  #users-profile-custom{
+    legend{
+      padding-top: 20px;
+    }
+  }
+  ul.btn-toolbar{
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-bottom: -42px;
+    li{
+      margin-left: 0;
+      a.btn{
+        margin-top: 2px;
+      }
+    }
+  }
+}
+
+/* ---------- Edit Profile ----------- */
+.profile-edit{
+  .well{
+    background: transparent;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    padding: 0;
+
+}
+legend{
+  border: none;
+  font-size: 18px;
+    font-weight: bold;
+    color: #394a5c;
+}
+.control-label{
+      float: left;
+    width: 230px;
+    padding-top: 5px;
+    text-align: left;
+    clear: left;
+}
+.btn#helpsite-refresh{
+  span:before{
+    font-family: fontawesome;
+    content:'\f021';
+    margin-right: 5px;
+  }
+}
+.controls{
+  margin-left: 155px;
+  button.validate{
+    // margin-left: 5px;
+  }
+  .btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+}
+.profile-edit .controls, 
+.login .controls, 
+#user-registration .controls, 
+#member-registration .controls {
+    margin-left: 115px;
+}
+.profile-edit .control-label, 
+.login .control-label, 
+#user-registration .control-label, 
+#member-registration .control-label {
+    float: left;
+    width: 100px;
+    padding-top: 5px;
+    text-align: right;
+    clear: left;
+} 
+.controls{
+  margin-left: 225px;
+}
+} 
+#user-registration, #member-registration {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+.registration #member-registration{
+  legend {
+    border-bottom: 1px solid #d1d6de;
+    margin-bottom: 25px;
+  }
+  > .control-group{
+    > .controls{
+      text-align: center;
+    }
+  }
+  .control-group {
+    max-width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    .control-label{
+      width: 155px;
+      float: left;
+      padding-top: 5px;
+      text-align: right;
+      clear: left;
+      @media(max-width: 480px){
+        text-align: left;
+      }
+      span.spacer {
+        margin-bottom: 20px;
+        display: block;
+      }
+      #jform_spacer-lbl {
+        font-weight: normal;
+      }
+    }
+    .controls{
+      margin-left: 170px;
+      @media(max-width: 480px){
+        margin-left: 0;
+      }
+      .btn{
+        height: auto;
+        margin: 0 5px;
+      }
+    }
+  }
+}
+.remind, .reset{
+  input[type="email"],
+  input[type="text"]{
+    width: calc(100%);
+  }
+  .control-group {
+    max-width: 370px;
+    margin: 0 auto 20px;
+    .controls{
+      margin-left: 115px !important;
+    }
+    .control-label{
+      width: 100px;
+    }
+    button.btn{
+      height: auto;
+    }
+  }
+  > form{
+    > fieldset{
+      > p{
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+[id*="member-"] input[type="email"], 
+[id*="member-"] input[type="password"], 
+[id*="member-"] input[type="text"], 
+[id*="member-"] textarea {
+    min-width: 360px;
+    @media(max-width: 480px){
+      width: 100%;
+      min-width: auto;
+    }
+}
+.profile-edit {
+  .btn.btn-mini:not(.btn-primary), 
+  .btn.btn-small:not(.btn-primary) {
+      background: #717f8e;
+      color: #ffffff;
+  }
+  legend{
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .control-group {
+    max-width: 645px;
+    margin-left: auto;
+    margin-right: auto;
+    .controls{
+      margin-left: 170px;
+      @media(max-width: 480px){
+        margin-left: 0;
+      }
+      .chzn-container {
+        min-width: 360px;
+        @media(max-width: 480px){
+          width: 100%;
+        }
+        .chzn-single{
+          height: auto;
+        }
+      }
+      button.btn{
+        height: auto;
+        &.btn-small{
+          margin-left: 5px;
+        }
+      }
+      a.btn{
+        margin-left: 5px;
+      }
+    }
+    .control-label{
+      width: 155px;
+      padding-top: 5px;
+      text-align: right;
+      clear: left;
+      @media(max-width: 480px){
+        text-align: left;
+      }
+    }    
+  }
+}
+.logout{
+  .control-group{
+    .controls{
+      .btn{
+        height: auto;
+      }
+    }
+  }
+}
+@media(max-width: 767px){
+  .profile-edit .controls{
+    margin-left: 0;
+  } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

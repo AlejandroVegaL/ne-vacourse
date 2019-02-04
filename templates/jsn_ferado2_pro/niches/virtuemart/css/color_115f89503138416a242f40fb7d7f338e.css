@@ -1,0 +1,197 @@
+/* PLEASE BE VERY CAREFUL WHEN EDITTING THIS FILE !
+ Don't change our color variables in line 5 & 6.
+ */
+.sunfw-com-virtuemart .cart-view form input[type="submit"] {
+  background-color: #f08c28;
+}
+.vm-tab-content nav > a:hover, .vm-tab-content nav > a[data-active="true"] {
+  background-color: #f08c28 !important;
+  color: #fff !important;
+}
+#adminForm .buttonBar-right button {
+  background: #f08c28;
+}
+.bg-main-color {
+  background: #f08c28 !important;
+}
+p.readmore .btn {
+  background-color: #f08c28;
+}
+form#searchForm .btn-toolbar .btn-group > button.btn, .login > form button {
+  background-color: #f08c28;
+}
+.text-maincolor, ul.VMmenu li.active > a {
+  color: #f08c28;
+}
+.vm-order-done a.vm-button-correct, .bg-maincolor {
+  background: #f08c28;
+}
+.sunfw-homepage #sunfw_section_content- .item-title a {
+  color: #f08c28;
+}
+.customer-name {
+  color: #f08c28;
+}
+ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer h3 {
+  color: #f08c28 !important;
+  border-bottom: 1px solid #f08c28;
+}
+ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer > ul > li a:hover {
+  color: #f08c28 !important;
+}
+.sunfw-scrollup:hover {
+  background-color: #f08c28;
+}
+#sunfw_section_copyright .social li:hover i {
+  color: #f08c28;
+}
+.galleria-info .galleria-info-description a.ferado-btn {
+  background-color: #f08c28;
+}
+.galleria-info .galleria-info-description a.ferado-btn:hover {
+  color: #f08c28;
+}
+.heading-border {
+  border-bottom: 2px solid #f08c28;
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  background-color: #f08c28;
+  border-color: #f08c28 !important;
+}
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+  color: #f08c28;
+}
+div.module-style ul.menu-sidemenu li:hover > a, div.module-style ul.menu-sidemenu li.active > a {
+  color: #f08c28;
+}
+.coming-soon a.goto-home {
+  color: #f08c28;
+}
+.coming-soon a.goto-home:hover {
+  color: #f08c28;
+  text-decoration: underline;
+}
+ul.nav.nav-tabs > li.active > a {
+  background-color: #f08c28;
+  border-color: #f08c28 !important;
+}
+[class*='module-style-'].module-style-2 .module-title .box-title {
+  border-color: #f08c28;
+}
+.virtuemart_search .button {
+  background-color: #f08c28;
+}
+@media (min-width: 768px) {
+  .hl-title .ferado-heading:before {
+    background: url(../images/header-wings.png) no-repeat 1px #f08c28;
+  }
+  .hl-title .ferado-heading:after {
+    background: url(../images/header-wings.png) no-repeat -301px #f08c28;
+  }
+  .ferado2-heading.bg-maincolor > span:before, .ferado2-heading.bg-maincolor > span:after {
+    background-color: #f08c28;
+  }
+}
+@media (max-width: 991px) {
+  .search .search-results .result-title a {
+    color: #f08c28;
+  }
+}
+h1.category-title span {
+  background: #f08c28;
+}
+.back-to-category a.product-details, div.details {
+  background: #f08c28;
+}
+.productdetails-view .vm-price-value span {
+  color: #f08c28;
+}
+.productdetails-view span.addtocart-button input.addtocart-button {
+  background: #f08c28;
+}
+.chzn-container .chzn-results .highlighted {
+  background: #f08c28;
+}
+.productdetails-view .information_tabs ul.tabs li.active a {
+  border-color: #f08c28;
+  color: #f08c28;
+}
+span.details-button input.details-button {
+  background: #f08c28;
+}
+button.vm-button-correct {
+  background: #f08c28;
+}
+.control-buttons button.default {
+  background: #f08c28;
+}
+.manufacturer-product-link a {
+  background: #f08c28;
+}
+#vmCartModule div.show_cart a {
+  background: #f08c28;
+}
+#fancybox-content .showcart {
+  background-color: #f08c28;
+}
+#com-form-login input.default {
+  background: #f08c28;
+}
+.p-info .addtocart-area .addtocart-button:hover, .p-info .addtocart-area .addtocart-button:hover {
+  background: #be660d;
+}
+ul.productdetails li .p-info:before, .vm-product-media-container .p-info:before {
+  background: #f08c28;
+}
+.counting-up, ul.nav[class*='menu-treemenu'] li a:hover {
+  color: #f08c28;
+}
+ul.nav[class*='menu-treemenu'] li.active > a, ul.nav[class*='menu-treemenu'] li.current > a {
+  color: #f08c28;
+}
+.border-double {
+  border-color: #f08c28 !important;
+}
+.border-double:before {
+  border-color: #f08c28 !important;
+}
+.counting-up, .main-color {
+  color: #f08c28 !important;
+}
+.content_rating + form input[name="submit_vote"] {
+  background-color: #f08c28;
+}
+ul.tags a.label:hover {
+  background-color: #f08c28;
+}
+.main-menu nav.sunfw-menu-head ul.navbar-nav > li > a.get-it {
+  background: #f08c28;
+}
+nav.sunfw-menu-head ul.navbar-nav ul.dropdown-menu > li > a {
+  color: #f08c28;
+}
+nav.sunfw-menu-head ul.navbar-nav ul.dropdown-menu > li > a:hover, nav.sunfw-menu-head ul.navbar-nav ul.dropdown-menu li.active > a {
+  color: #f08c28 !important;
+}
+ul.menu li.current > a {
+  color: #f08c28 !important;
+}
+.breadcrumb li a {
+  color: #f08c28;
+}
+@media (max-width: 480px) {
+  #menu_item_menu ul.dropdown-menu li.active > a, #menu_item_menu ul.sunfw-megamenu-sub-menu li.active > a, #menu_item_menu .modulecontainer ul.nav-child li.active > a {
+    background-color: transparent !important;
+    color: #f08c28 !important;
+  }
+  #menu_item_menu ul.navbar-nav > li:hover > a, #menu_item_menu ul.navbar-nav > li.active > a {
+    color: #f08c28;
+  }
+}
+.bg-main-color:hover {
+  background: #fca752 !important;
+  opacity: 0.9;
+}
+nav.sunfw-menu-head ul.navbar-nav > li > span.nav-header:hover {
+  background: #fca752;
+}

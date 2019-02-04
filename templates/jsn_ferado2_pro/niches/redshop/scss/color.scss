@@ -1,0 +1,221 @@
+/* PLEASE BE VERY CAREFUL WHEN EDITTING THIS FILE !
+   Don't change our color variables in line 5 & 6.
+*/
+
+$main-color: false !default;
+$sub-color: false !default;
+
+@if $main-color != false{
+	.text-maincolor{
+		color: $main-color;
+	}
+	.bg-maincolor{
+		background: $main-color;
+	}	
+	.sunfw-homepage #sunfw_section_content .item-title a{
+		color: $main-color;
+	}
+	.customer-name{
+		color: $main-color;
+	}
+	ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer h3{
+		color: $main-color;
+		border-bottom: 1px solid $main-color;
+	}
+	.sunfw-scrollup:hover{
+		background-color: $main-color;
+	}
+	#sunfw_section_copyright .social li:hover i{
+		color: $main-color;
+	}
+
+	.galleria-info .galleria-info-description a.ferado-btn{
+		background-color: $main-color;
+		&:hover{
+			color: $main-color;
+		}
+	}
+	.heading-border{
+		border-bottom: 2px solid $main-color;
+	}
+	.pagination > .active > a, 
+	.pagination > .active > a:hover, 
+	.pagination > .active > a:focus, 
+	.pagination > .active > span, 
+	.pagination > .active > span:hover, 
+	.pagination > .active > span:focus{
+		background-color: $main-color;
+    	border: 1px solid $main-color !important;
+	}
+	.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus{
+		color: $main-color;
+	}
+	div.module-style ul.menu-sidemenu{
+		li:hover > a,li.active > a{
+			color : $main-color;
+		}
+	}
+	.coming-soon a.goto-home{
+		color: $main-color;
+		&:hover{
+			color: $main-color;
+			text-decoration: underline;
+		}
+	}
+	#kunena .kfrontend .btn-link{
+		color: $main-color;
+	}
+	@media (min-width: 768px){
+		.hl-title .ferado-heading{
+			&:before{
+				background: url(../images/header-wings.png) no-repeat 1px $main-color;			
+			}
+			&:after{
+				background: url(../images/header-wings.png) no-repeat -301px $main-color;				
+			}    	
+	    }
+	    .ferado2-heading.bg-maincolor > span{
+	    	&:before,&:after{
+	    		background-color: $main-color;
+	    	}
+	    }	    
+	}
+	@media (max-width: 991px){
+	    .search .search-results .result-title a{
+	    	color: $main-color;
+	    }		
+	}
+
+	//RedShop
+	.category_box_wrapper.list .category_box_inside .category_product_title h3 a:hover,
+	.category_box_wrapper.list .category_box_inside .category_product_price{
+		color: $main-color; 
+	}
+	.product_detail .product_price{
+		color: $main-color;
+	}
+	.product_detail .manufacturer_link,.product_detail .ask_question_about_product,.product_detail .product_writereview{
+		a.btn.btn-primary{
+			color: $main-color;
+		}
+	}
+	div.mod_cart_main div.mod_cart_checkout a{
+		background: $main-color;
+	}
+	.spacer .p-mask .sku_wrapper .sku a{
+		color: $main-color;
+	}
+	.product_detail .gd_navigation a{
+		color: $main-color;
+	}
+	form#askQuestionForm .redshop-askquestion .send_button input.btn{
+		background-color: $main-color;
+	}
+	.mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_rs_info:before,.category_box_wrapper.grid .category_box_inside .category_product_info:before{
+		background: $main-color;
+	}
+	.mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_rs_info .mod_redshop_products_addtocart form span.pdaddtocart_img_link:hover{
+		background: darken($main-color,15%);
+	}
+	.category_box_wrapper.grid .category_box_inside .category_product_info .category_product_addtocart span.pdaddtocart_link:hover{
+		background: darken($main-color,15%) !important;
+	}
+	.sunfw-com-redshop form .product_search .product_search_button input#Search	{
+		background-color: $main-color;
+	}
+	.mod_redshop_products_wrapper .mod_redshop_products_horizontal .mod_rs_products_content .mod_redshop_products_readmore a{
+		color: $main-color;
+	}	
+	.wishlist_link a.redshop-wishlist-form-link:hover:after{
+		color: $main-color;
+	}
+	[class*='module-style-'] .module-body ul.small li.active > a,
+	.btn.btn-plain:hover,
+	.feed ul.newsfeed > li span.feed-link a,
+	.commin .date-item span.text,
+	.jsn-counter-wrap .number{
+		color: $main-color;
+	}
+	ul.menu.list-menu li.active a{
+		color: $main-color !important;
+	}
+	table.calendar tr td.calendarToday,
+	div.k2TagCloudBlock a:hover{
+		background-color: $main-color;
+	}
+	ul.nav.nav-tabs > li.active > a{
+		background-color: $main-color;
+		border-color: $main-color !important;
+	}
+	#menu_item_menu ul.sunfw-megamenu-sub-menu li.current > a{
+		color: $main-color !important;
+	}
+	nav.sunfw-menu-head .navbar-header button.navbar-toggle{
+		background-color: $main-color;
+	}
+	[class*='module-style-'].module-style-2 .module-title .box-title{
+		border-color: $main-color;  
+	}
+	.jsn-counter-wrap:hover .icon{
+		background-color: $main-color;
+	}
+	.section-purchase{
+		.content{
+			a.button{
+				&:hover{
+					background-color: $main-color !important;
+					border-color: $main-color !important;
+				}
+			}
+		}
+	}
+	ul.tags a.label:hover{
+		background-color: $main-color;
+	}
+	.main-menu nav.sunfw-menu-head ul.navbar-nav > li > a.get-it{
+		background: $main-color;
+	}
+	nav.sunfw-menu-head ul.navbar-nav ul.dropdown-menu > li > a{
+		color: $main-color;
+	}
+	nav.sunfw-menu-head ul.navbar-nav ul.dropdown-menu > li > a:hover,
+	nav.sunfw-menu-head ul.navbar-nav ul.dropdown-menu li.active > a{
+		color: $main-color !important;
+	}
+	ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer > ul > li a:hover{
+		color: $main-color !important;
+	}
+	ul.menu{
+		li.current{
+			> a{
+				color: $main-color !important;
+			}
+		}
+	}
+	.breadcrumb li a{
+		color: $main-color;
+	}
+	.bg-main-color,
+	p.readmore .btn{
+		background-color: $main-color !important; 
+	}
+	@media(max-width: 480px){
+	  #menu_item_menu ul.dropdown-menu li.active > a, 
+	  #menu_item_menu ul.sunfw-megamenu-sub-menu li.active > a, 
+	  #menu_item_menu .modulecontainer ul.nav-child li.active > a{
+	    background-color: transparent !important;
+	    color: $main-color !important;
+	  }
+	  #menu_item_menu ul.navbar-nav > li:hover > a, 
+	  #menu_item_menu ul.navbar-nav > li.active > a {
+	  	color: $main-color;
+	  	span.caret{
+			&:before{
+				color: $main-color;
+			}
+	  	}
+	 } 
+}
+}
+
+

@@ -1,0 +1,249 @@
+/* PLEASE BE VERY CAREFUL WHEN EDITTING THIS FILE !
+   Don't change our color variables in line 5 & 6.
+*/
+
+$main-color: false !default;
+$sub-color: false !default;
+
+@if $main-color != false {
+  .sunfw-com-virtuemart .cart-view {
+    form {
+      input[type="submit"] {
+        background-color: $main-color;
+      }
+    }
+  }
+
+  .vm-tab-content nav > a:hover,
+  .vm-tab-content nav > a[data-active="true"] {
+    background-color: $main-color !important;
+    color: #fff !important;
+  }
+  #adminForm{
+    .buttonBar-right{
+      button{
+        background: $main-color;
+      }
+    }
+  }
+  .bg-main-color {
+    background: $main-color !important;
+  }
+  p.readmore .btn {
+    background-color: $main-color;
+  }
+  form#searchForm .btn-toolbar .btn-group > button.btn,
+  .login > form button {
+    background-color: $main-color;
+  }
+  .text-maincolor,
+  ul.VMmenu li.active > a {
+    color: $main-color;
+  }
+  .vm-order-done a.vm-button-correct,
+  .bg-maincolor {
+    background: $main-color;
+  }
+  .sunfw-homepage #sunfw_section_content- .item-title a {
+    color: $main-color;
+  }
+  .customer-name {
+    color: $main-color;
+  }
+  ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer h3 {
+    color: $main-color!important;
+    border-bottom: 1px solid $main-color;
+  }
+  ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer > ul > li a:hover {
+  color: $main-color !important;
+}
+  .sunfw-scrollup:hover {
+    background-color: $main-color;
+  }
+  #sunfw_section_copyright .social li:hover i {
+    color: $main-color;
+  }
+
+  .galleria-info .galleria-info-description a.ferado-btn {
+    background-color: $main-color;
+    &:hover {
+      color: $main-color;
+    }
+  }
+  .heading-border {
+    border-bottom: 2px solid $main-color;
+  }
+  .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+    background-color: $main-color;
+    border-color: $main-color !important;
+  }
+  .pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+    color: $main-color;
+  }
+  div.module-style ul.menu-sidemenu {
+    li:hover > a, li.active > a {
+      color: $main-color;
+    }
+  }
+  .coming-soon a.goto-home {
+    color: $main-color;
+    &:hover {
+      color: $main-color;
+      text-decoration: underline;
+    }
+  }
+  ul.nav.nav-tabs > li.active > a {
+    background-color: $main-color;
+    border-color: $main-color !important;
+  }
+  [class*='module-style-'].module-style-2 .module-title .box-title {
+    border-color: $main-color;
+  }
+  .virtuemart_search .button{
+    background-color: $main-color;
+  }
+  @media (min-width: 768px) {
+    .hl-title .ferado-heading {
+      &:before {
+        background: url(../images/header-wings.png) no-repeat 1px $main-color;
+      }
+      &:after {
+        background: url(../images/header-wings.png) no-repeat -301px $main-color;
+      }
+    }
+    .ferado2-heading.bg-maincolor > span {
+      &:before, &:after {
+        background-color: $main-color;
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    .search .search-results .result-title a {
+      color: $main-color;
+    }
+  }
+
+  //Virtuemart
+  h1.category-title span {
+    background: $main-color;
+  }
+  .back-to-category a.product-details, div.details {
+    background: $main-color;
+  }
+  .productdetails-view .vm-price-value span {
+    color: $main-color;
+  }
+  .productdetails-view span.addtocart-button input.addtocart-button {
+    background: $main-color;
+  }
+  .chzn-container .chzn-results .highlighted {
+    background: $main-color;
+  }
+  .productdetails-view .information_tabs ul.tabs li.active a {
+    border-color: $main-color;
+    color: $main-color;
+  }
+  span.details-button input.details-button {
+    background: $main-color;
+  }
+  button.vm-button-correct {
+    background: $main-color;
+  }
+  .control-buttons button.default {
+    background: $main-color;
+  }
+  .manufacturer-product-link a {
+    background: $main-color;
+  }
+  #vmCartModule div.show_cart a {
+    background: $main-color;
+  }
+  #fancybox-content .showcart {
+    background-color: $main-color;
+  }
+  #com-form-login input.default {
+    background: $main-color;
+  }
+  .p-info .addtocart-area .addtocart-button:hover, .p-info .addtocart-area .addtocart-button:hover {
+    background: darken($main-color, 15%);
+  }
+  ul.productdetails li .p-info:before, .vm-product-media-container .p-info:before {
+    background: $main-color;
+  }
+  .counting-up,
+  ul.nav[class*='menu-treemenu'] li a:hover {
+    color: $main-color;
+  }
+  ul.nav[class*='menu-treemenu'] {
+    li {
+      &.active,
+      &.current {
+        > a {
+          color: $main-color;
+        }
+      }
+    }
+  }
+  .border-double {
+    border-color: $main-color !important;
+    &:before {
+      border-color: $main-color !important;
+    }
+  }
+  .counting-up,
+  .main-color {
+    color: $main-color !important;
+  }
+  .content_rating + form input[name="submit_vote"] {
+    background-color: $main-color;
+  }
+  ul.tags a.label:hover {
+    background-color: $main-color;
+  }
+  .main-menu nav.sunfw-menu-head ul.navbar-nav > li > a.get-it {
+    background: $main-color;
+  }
+  nav.sunfw-menu-head ul.navbar-nav ul.dropdown-menu > li > a {
+    color: $main-color;
+  }
+  nav.sunfw-menu-head ul.navbar-nav ul.dropdown-menu > li > a:hover,
+  nav.sunfw-menu-head ul.navbar-nav ul.dropdown-menu li.active > a {
+    color: $main-color !important;
+  }
+  ul.menu {
+    li.current {
+      > a {
+        color: $main-color !important;
+      }
+    }
+  }
+
+  .breadcrumb li a {
+    color: $main-color;
+  }
+
+  @media(max-width: 480px) {
+    #menu_item_menu ul.dropdown-menu li.active > a,
+    #menu_item_menu ul.sunfw-megamenu-sub-menu li.active > a,
+    #menu_item_menu .modulecontainer ul.nav-child li.active > a {
+      background-color: transparent !important;
+      color: $main-color !important;
+    }
+    #menu_item_menu ul.navbar-nav > li:hover > a,
+    #menu_item_menu ul.navbar-nav > li.active > a {
+      color: $main-color;
+    }
+  }
+}
+
+@if $sub-color != false {
+  .bg-main-color:hover {
+    background: $sub-color !important;
+    opacity: .9;
+  }
+  nav.sunfw-menu-head ul.navbar-nav > li > span.nav-header{
+    &:hover{
+      background: $sub-color;
+    }
+  }
+}

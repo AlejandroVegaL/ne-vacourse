@@ -1,0 +1,197 @@
+/* PLEASE BE VERY CAREFUL WHEN EDITTING THIS FILE !
+ Don't change our color variables in line 5 & 6.
+ */
+.sunfw-com-virtuemart .cart-view form input[type="submit"] {
+  background-color: #42b3a0;
+}
+.vm-tab-content nav > a:hover, .vm-tab-content nav > a[data-active="true"] {
+  background-color: #42b3a0 !important;
+  color: #fff !important;
+}
+#adminForm .buttonBar-right button {
+  background: #42b3a0;
+}
+.bg-main-color {
+  background: #42b3a0 !important;
+}
+p.readmore .btn {
+  background-color: #42b3a0;
+}
+form#searchForm .btn-toolbar .btn-group > button.btn, .login > form button {
+  background-color: #42b3a0;
+}
+.text-maincolor, ul.VMmenu li.active > a {
+  color: #42b3a0;
+}
+.vm-order-done a.vm-button-correct, .bg-maincolor {
+  background: #42b3a0;
+}
+.sunfw-homepage #sunfw_section_content- .item-title a {
+  color: #42b3a0;
+}
+.customer-name {
+  color: #42b3a0;
+}
+ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer h3 {
+  color: #42b3a0 !important;
+  border-bottom: 1px solid #42b3a0;
+}
+ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer > ul > li a:hover {
+  color: #42b3a0 !important;
+}
+.sunfw-scrollup:hover {
+  background-color: #42b3a0;
+}
+#sunfw_section_copyright .social li:hover i {
+  color: #42b3a0;
+}
+.galleria-info .galleria-info-description a.ferado-btn {
+  background-color: #42b3a0;
+}
+.galleria-info .galleria-info-description a.ferado-btn:hover {
+  color: #42b3a0;
+}
+.heading-border {
+  border-bottom: 2px solid #42b3a0;
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  background-color: #42b3a0;
+  border-color: #42b3a0 !important;
+}
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+  color: #42b3a0;
+}
+div.module-style ul.menu-sidemenu li:hover > a, div.module-style ul.menu-sidemenu li.active > a {
+  color: #42b3a0;
+}
+.coming-soon a.goto-home {
+  color: #42b3a0;
+}
+.coming-soon a.goto-home:hover {
+  color: #42b3a0;
+  text-decoration: underline;
+}
+ul.nav.nav-tabs > li.active > a {
+  background-color: #42b3a0;
+  border-color: #42b3a0 !important;
+}
+[class*='module-style-'].module-style-2 .module-title .box-title {
+  border-color: #42b3a0;
+}
+.virtuemart_search .button {
+  background-color: #42b3a0;
+}
+@media (min-width: 768px) {
+  .hl-title .ferado-heading:before {
+    background: url(../images/header-wings.png) no-repeat 1px #42b3a0;
+  }
+  .hl-title .ferado-heading:after {
+    background: url(../images/header-wings.png) no-repeat -301px #42b3a0;
+  }
+  .ferado2-heading.bg-maincolor > span:before, .ferado2-heading.bg-maincolor > span:after {
+    background-color: #42b3a0;
+  }
+}
+@media (max-width: 991px) {
+  .search .search-results .result-title a {
+    color: #42b3a0;
+  }
+}
+h1.category-title span {
+  background: #42b3a0;
+}
+.back-to-category a.product-details, div.details {
+  background: #42b3a0;
+}
+.productdetails-view .vm-price-value span {
+  color: #42b3a0;
+}
+.productdetails-view span.addtocart-button input.addtocart-button {
+  background: #42b3a0;
+}
+.chzn-container .chzn-results .highlighted {
+  background: #42b3a0;
+}
+.productdetails-view .information_tabs ul.tabs li.active a {
+  border-color: #42b3a0;
+  color: #42b3a0;
+}
+span.details-button input.details-button {
+  background: #42b3a0;
+}
+button.vm-button-correct {
+  background: #42b3a0;
+}
+.control-buttons button.default {
+  background: #42b3a0;
+}
+.manufacturer-product-link a {
+  background: #42b3a0;
+}
+#vmCartModule div.show_cart a {
+  background: #42b3a0;
+}
+#fancybox-content .showcart {
+  background-color: #42b3a0;
+}
+#com-form-login input.default {
+  background: #42b3a0;
+}
+.p-info .addtocart-area .addtocart-button:hover, .p-info .addtocart-area .addtocart-button:hover {
+  background: #2d7b6e;
+}
+ul.productdetails li .p-info:before, .vm-product-media-container .p-info:before {
+  background: #42b3a0;
+}
+.counting-up, ul.nav[class*='menu-treemenu'] li a:hover {
+  color: #42b3a0;
+}
+ul.nav[class*='menu-treemenu'] li.active > a, ul.nav[class*='menu-treemenu'] li.current > a {
+  color: #42b3a0;
+}
+.border-double {
+  border-color: #42b3a0 !important;
+}
+.border-double:before {
+  border-color: #42b3a0 !important;
+}
+.counting-up, .main-color {
+  color: #42b3a0 !important;
+}
+.content_rating + form input[name="submit_vote"] {
+  background-color: #42b3a0;
+}
+ul.tags a.label:hover {
+  background-color: #42b3a0;
+}
+.main-menu nav.sunfw-menu-head ul.navbar-nav > li > a.get-it {
+  background: #42b3a0;
+}
+nav.sunfw-menu-head ul.navbar-nav ul.dropdown-menu > li > a {
+  color: #42b3a0;
+}
+nav.sunfw-menu-head ul.navbar-nav ul.dropdown-menu > li > a:hover, nav.sunfw-menu-head ul.navbar-nav ul.dropdown-menu li.active > a {
+  color: #42b3a0 !important;
+}
+ul.menu li.current > a {
+  color: #42b3a0 !important;
+}
+.breadcrumb li a {
+  color: #42b3a0;
+}
+@media (max-width: 480px) {
+  #menu_item_menu ul.dropdown-menu li.active > a, #menu_item_menu ul.sunfw-megamenu-sub-menu li.active > a, #menu_item_menu .modulecontainer ul.nav-child li.active > a {
+    background-color: transparent !important;
+    color: #42b3a0 !important;
+  }
+  #menu_item_menu ul.navbar-nav > li:hover > a, #menu_item_menu ul.navbar-nav > li.active > a {
+    color: #42b3a0;
+  }
+}
+.bg-main-color:hover {
+  background: #4bc6b1 !important;
+  opacity: 0.9;
+}
+nav.sunfw-menu-head ul.navbar-nav > li > span.nav-header:hover {
+  background: #4bc6b1;
+}
